@@ -10,7 +10,6 @@
     padding: 0;
 }
 
-/* ==================== GLOBAL STYLES ==================== */
 body {
     font-family: 'CascadiaCode', monospace;
     color: #000;
@@ -18,7 +17,7 @@ body {
     min-height: 100vh;
     background: url("images\star_background.jpg") no-repeat center center fixed;
     background-size: cover;
-    background-color: #3a65ff;
+    background-color: #000000;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,7 +53,7 @@ a:hover {
 .section-box {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
     gap: 0.5rem;
 }
@@ -94,6 +93,10 @@ a:hover {
     display: flex;
     gap: 2rem;
     align-items: flex-start;
+}
+
+#projects {
+    flex-direction: column;
 }
 
 #about-title, #project-title {
@@ -164,6 +167,10 @@ a:hover {
 .project-card h3 {
     font-size: clamp(1rem, 2.5vw, 1.2rem);
     text-align: center;
+}
+
+#project-title{
+    te
 }
 
 /* ==================== RESPONSIVE DESIGN ==================== */
